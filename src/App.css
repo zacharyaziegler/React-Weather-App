@@ -1,0 +1,67 @@
+.app {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 100vh; /* Full viewport height */
+  text-align: center; /* Center text inside */
+  background-color: #282c34; /* Optional: Add a nice background */
+  color: white; /* Optional: Text color */
+  margin: 0; /* Remove default margin */
+}
+
+.input-field {
+  margin-bottom: 1rem;
+}
+
+input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.weather-card {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #222;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: left; /* Align text left inside the card */
+}
+
+.error {
+  color: red;
+}
+
+.loading {
+  color: #007BFF;
+}
+
+.text {
+  color: #ffffff
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #282c34; /* Optional background color */
+  color: white; /* Optional: Default text color */
+  font-family: Arial, sans-serif; /* Optional: Font style */
+}
+
